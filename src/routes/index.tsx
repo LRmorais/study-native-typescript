@@ -4,6 +4,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import SignIn from '../pages/SignIn';
 import SignUp from '../pages/SignUp';
 
+// rotas para autenticar o usuario
 const Auth = createStackNavigator();
 
 const AuthRoutes: React.FC = () => (
